@@ -1,0 +1,43 @@
+/*  
+ 
+.dashboard{ 
+    padding-top: 60px; 
+    height:150px; 
+} */ 
+ 
+/* .outer-box{ 
+    display: flex; 
+    justify-content: space-around; 
+} */ 
+ 
+.innerbox{ 
+    background-color: #ffffed; 
+    height: 105px; 
+    width: 120px; 
+} 
+ 
+.outer-box{ 
+    background-color: #f1f5f9; 
+} 
+.loan-inner-box:hover ,#pending-tab:hover, #completed-tab:hover{ 
+    cursor: pointer; 
+    transition:  0.7s ease, color 0.7s ease; 
+    background-color: #d4e1ed; 
+} 
+.loan-inner-box, .loan-inner-box1{ 
+    display: flex; 
+    padding-top: 0.5em; 
+    padding-bottom: 0.5em; 
+    align-items: center; 
+    width: 250%; 
+    justify-content: space-between; 
+    border-radius: 10px; 
+} 
+.loan-inner-box > div , .loan-inner-box1 > div{ 
+    flex: 1;  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+    padding: 0.5em;  
+    box-sizing: border-box;  
+}

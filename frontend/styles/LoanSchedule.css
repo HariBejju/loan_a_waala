@@ -1,0 +1,23 @@
+/* #card-interest-payable { 
+    border-color: #FFFFED; 
+} */ /* NOT VISIBLE */ 
+:root { 
+    --pastel-yellow: #FFFFED; 
+    --pastel-pink: #FDE3FF; 
+    --pastel-blue: #E0F9F7; 
+} 
+ 
+#card-interest-payable > .card-header { 
+    border-color: var(--pastel-yellow); 
+    background-color: var(--pastel-yellow); 
+} 
+ 
+#card-monthly-installment > .card-header { 
+    border-color: var(--pastel-pink); 
+    background-color: var(--pastel-pink); 
+} 
+ 
+#card-total-repayments > .card-header { 
+    border-color: var(--pastel-blue); 
+    background-color: var(--pastel-blue); 
+}

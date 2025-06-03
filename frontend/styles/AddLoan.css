@@ -1,0 +1,32 @@
+.add-loan-box{ 
+    display: grid; 
+    grid-template-columns: repeat(6, 1fr); /* Creates 6 equal columns */ 
+    gap: 15px; 
+    text-align: center; 
+    align-items: center; 
+    font-weight: bolder; 
+    padding-top: 20px; 
+    font-size: 20px; 
+ 
+} 
+.add-loan-inner-box { 
+    display: grid; 
+    grid-template-columns: repeat(6, 1fr); /* Creates 6 equal columns */ 
+    gap: 15px; 
+    text-align: center; /* Ensures uniform text alignment */ 
+    align-items: center; 
+} 
+ 
+.add-loan-inner-box div { 
+    padding: 10px; 
+    border-bottom: none;/* Optional: adds separator for clarity */ 
+} 
+ 
+.loan-add { 
+    text-align: center; 
+    width: 100px; 
+} 
+ 
+.outer-box { 
+    background-color: #f1f5f9; 
+}

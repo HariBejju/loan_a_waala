@@ -1,0 +1,111 @@
+h2 { 
+    margin-bottom: 20px; 
+} 
+ 
+.input-group { 
+    margin-bottom: 15px; 
+    text-align: left; 
+} 
+ 
+label { 
+    display: block; 
+    margin-bottom: 5px; 
+} 
+ 
+input { 
+    width: 100%; 
+    padding: 8px; 
+    box-sizing: border-box; 
+} 
+ 
+button { 
+    width: 100%; 
+    padding: 10px; 
+    background-color: #4CAF50; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+} 
+ 
+button:hover { 
+    background-color: #45a049; 
+} 
+.error-message { 
+    color: red; 
+    margin-top: 10px; 
+} 
+ 
+ 
+.login-page { 
+    display: flex; 
+    height: 100vh; 
+} 
+ 
+/* 55% section */ 
+.left-section { 
+    width: 60%; 
+    background-color: #D4E1ED; 
+    text-align: center; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; /* Centers horizontally */ 
+    align-items: center; /* Centers vertically */ 
+    height: 100vh; /* Full viewport height */ 
+} 
+ 
+/* 45% section */ 
+.right-section { 
+    width: 40%; 
+    background-color: #FFFFFF; /* White */ 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
+} 
+ 
+.login-container { 
+    width: 60%; 
+    background-color: white; 
+    padding: 30px; 
+    border-radius: 10px; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+} 
+ 
+.left-section img { 
+    width: 500px; 
+    height: auto; 
+} 
+ 
+ 
+.company-name { 
+    margin-top: 20px; /* Space between image and text */ 
+    font-size: 50px; 
+    font-weight: bold; 
+    color: #333;  
+    text-align: center; 
+} 
+ 
+.go-back-container { 
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 20px; /* Adds space between Go Back button and login form */ 
+} 
+ 
+.backArrow { 
+    background: none; 
+    border: none; 
+    cursor: pointer; 
+    font-size: 18px; 
+    color: #333; 
+} 
+ 
+.backArrow:hover { 
+    color: #007bff; 
+} 
+ 
+.qtr-margin-left { 
+    margin-left: 10px; 
+    font-size: 16px; 
+    color: gray; 
+}

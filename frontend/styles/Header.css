@@ -1,0 +1,9 @@
+.dropdown-toggle::after { 
+    display: none 
+} 
+ 
+.logo { 
+    background-color: red; 
+    -webkit-mask: url("../assets/logo.svg") no-repeat center; 
+    mask: url("../assets/logo.svg") no-repeat center; 
+}

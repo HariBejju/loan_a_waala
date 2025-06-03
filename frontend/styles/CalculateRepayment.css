@@ -1,0 +1,14 @@
+.header-container { 
+    margin: 0; 
+    padding: 0; 
+    width: 100%; 
+} 
+ 
+ 
+.btn-success:hover { 
+    background-color: #28a745 !important; /* Keeps original color */ 
+} 
+ 
+.btn-danger:hover { 
+    background-color: #dc3545 !important; /* Keeps original color */ 
+}
