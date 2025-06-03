@@ -1,79 +1,70 @@
 # Loanawala - Loan Management System
 
-Loanawala is a full-stack web application built to manage and track loans efficiently. Developed during my internship, this project simulates a complete loan management workflow — from adding loans, calculating repayments, tracking history, to managing users. Built with a focus on usability, real-world logic, and secure architecture.
+Loanawala is a full-stack loan management system developed using **Java (Spring Boot)** for the backend, **MySQL** for database management, and **React.js** for the frontend. This project was built during my internship and is designed to help users manage loans efficiently — from adding loans and calculating EMI, to tracking repayment history and generating reports.
 
 ---
 
 ## 🚀 Features
 
-### Frontend
+### 🔐 Authentication & User Management
 
-* **Dashboard** for loan summary and quick stats
-* **Add Loan** form with validation
-* **EMI Calculator** for monthly repayment estimates
-* **Chart Section** to visualize repayment trends
-* **Action History** to track user operations
+* Secure login using JWT
+* Role-based access (Admin/User)
+* LocalStorage-based session management on frontend
 
-### Backend
+### 🧾 Loan Management
 
-* RESTful API built with Node.js/Express
-* JWT-based authentication
-* MongoDB for storing loan and user data
-* Routes for loans, authentication, and actions
-* Validations and error handling
+* Add new loans using PAN number
+* View, edit, and manage loan details
+* EMI calculation with interest and principal breakdown
+* Repayment tracking and status updates
 
----
+### 📊 Dashboard & Visualization
 
-## 🧑‍💻 Tech Stack
+* Summary cards: Active loans, total pending amount, next due date
+* Filter & sort loans by due date, interest, principal
+* Visualize monthly payments using Pie and Bar charts
+* Notification alerts for due dates
 
-### Frontend
+### 📁 Repayment History & Schedule
 
-* React.js (JSX components)
-* CSS3 (custom styling)
-* Chart.js or similar for graphs
+* Auto-generated EMI schedule using formula-based calculation
+* Track each repayment with breakdown
+* Export schedule & charts as downloadable PDF
 
-### Backend
+### 🧠 Tech Stack
 
-* Node.js
-* Express.js
-* MongoDB (via Mongoose)
-* JWT for Auth
+#### Backend
 
----
+* Java 17
+* Spring Boot
+* Spring Security (JWT-based Auth)
+* MySQL
+* Hibernate (JPA)
 
-## 📂 Project Structure
+#### Frontend
 
-```
-Loanawala/
-├── frontend/
-│   ├── components/       # React components (Dashboard, AddLoan, etc.)
-│   ├── styles/           # CSS files
-│   └── assets/           # Static files/images
-├── backend/
-│   ├── routes/           # API routes
-│   ├── models/           # Mongoose models
-│   ├── controllers/      # Business logic
-│   ├── services/         # Utility functions
-│   ├── middlewares/      # Auth & error handling
-│   └── utils/
-```
+* React.js
+* JSX, CSS Modules
+* Chart.js
+* Axios for HTTP calls
 
 ---
 
-## 📦 How to Run
 
-### Prerequisites
 
-* Node.js and npm
-* MongoDB installed locally or via cloud (MongoDB Atlas)
+## ⚙️ How to Run
 
 ### Backend
 
 ```bash
 cd backend
-npm install
-npm start
+mvn clean install
+java -jar target/Loanawala-0.0.1-SNAPSHOT.jar
 ```
+
+* Ensure MySQL is running
+* DB config can be changed in `application.properties`
 
 ### Frontend
 
@@ -83,20 +74,29 @@ npm install
 npm start
 ```
 
-Visit `http://localhost:3000` to view the app.
+Access the app at `http://localhost:3000`
 
 ---
 
-## 🧠 Future Improvements
+## 🔐 Credentials & Environment Setup
 
-* Email notifications for due dates
-* Role-based user access
-* Dark mode / UI enhancements
+* Configure `application.properties` with your DB credentials
+* Set JWT\_SECRET and other sensitive data using environment variables
+* Frontend communicates via `http://localhost:8090`
 
 ---
+
+## 🧠 Learning & Challenges
+
+* Dynamic EMI calculations based on changing balances
+* Managing dual states: React local + persistent storage
+* Modular architecture separating UI/API/Auth logic cleanly
+
+---
+
 
 ---
 
 ## 📄 License
 
-This project is for educational and demo purposes. Do not redistribute proprietary code.
+This repository contains only a **demo version** of the Loanawala app, rebuilt using my own logic and open-source stack. No proprietary code or sensitive business data is included.
