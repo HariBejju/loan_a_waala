@@ -9,7 +9,6 @@ Loanawala is a full-stack loan management system developed using **Java (Spring 
 ### 🔐 Authentication & User Management
 
 * Secure login using JWT
-* Role-based access (Admin/User)
 * LocalStorage-based session management on frontend
 
 ### 🧾 Loan Management
