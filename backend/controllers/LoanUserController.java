@@ -1,7 +1,7 @@
 package com.example.sample_project.controller; 
  
-import com.example.sample_project.entity.LoanUserCollection; 
-import com.example.sample_project.service.LoanUserCollectionService; 
+import com.example.sample_project.models.LoanUserCollection; 
+import com.example.sample_project.services.LoanUserCollectionService; 
 import org.springframework.beans.factory.annotation.Autowired; 
 import org.springframework.http.HttpStatus; 
 import org.springframework.http.ResponseEntity; 

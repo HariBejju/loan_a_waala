@@ -1,7 +1,7 @@
 package com.example.sample_project.controller; 
  
-import com.example.sample_project.entity.Actions; 
-import com.example.sample_project.service.ActionService; 
+import com.example.sample_project.models.Actions; 
+import com.example.sample_project.services.ActionService; 
 import org.junit.jupiter.api.BeforeEach; 
 import org.junit.jupiter.api.Test; 
 import org.junit.jupiter.api.extension.ExtendWith; 

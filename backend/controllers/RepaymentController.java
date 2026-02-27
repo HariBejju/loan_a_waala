@@ -1,7 +1,7 @@
 package com.example.sample_project.controller; 
  
-import com.example.sample_project.entity.Repayment; 
-import com.example.sample_project.service.RepaymentService; 
+import com.example.sample_project.models.Repayment; 
+import com.example.sample_project.services.RepaymentService; 
 import org.springframework.beans.factory.annotation.Autowired; 
 import org.springframework.http.ResponseEntity; 
 import org.springframework.web.bind.annotation.*; 

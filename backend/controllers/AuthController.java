@@ -1,10 +1,10 @@
 package com.example.sample_project.controller; 
  
-import com.example.sample_project.action.ActionRecorder; 
+import com.example.sample_project.services.ActionRecorder; 
 import com.example.sample_project.dto.RegisterRequest; 
-import com.example.sample_project.entity.Actions; 
-import com.example.sample_project.entity.Users; 
-import com.example.sample_project.repository.UserRepository; 
+import com.example.sample_project.models.Actions; 
+import com.example.sample_project.models.Users; 
+import com.example.sample_project.repositories.UserRepository; 
 import com.example.sample_project.security.JwtUtil; 
 import org.springframework.beans.factory.annotation.Autowired; 
 import org.springframework.http.HttpStatus; 

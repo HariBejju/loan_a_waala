@@ -1,7 +1,7 @@
 package com.example.sample_project.controller; 
  
-import com.example.sample_project.entity.Notifications; 
-import com.example.sample_project.repository.NotificationRepository; 
+import com.example.sample_project.models.Notifications; 
+import com.example.sample_project.repositories.NotificationRepository; 
 import org.junit.jupiter.api.BeforeEach; 
 import org.junit.jupiter.api.Test; 
 import org.junit.jupiter.api.extension.ExtendWith; 

@@ -1,7 +1,7 @@
 package com.example.sample_project.controller; 
  
-import com.example.sample_project.entity.Notifications; 
-import com.example.sample_project.repository.NotificationRepository; 
+import com.example.sample_project.models.Notifications; 
+import com.example.sample_project.repositories.NotificationRepository; 
 import com.example.sample_project.scheduler.NotificationScheduler; 
 import org.springframework.beans.factory.annotation.Autowired; 
 import org.springframework.http.ResponseEntity; 

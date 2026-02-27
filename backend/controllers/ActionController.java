@@ -1,8 +1,8 @@
 package com.example.sample_project.controller; 
  
-import com.example.sample_project.entity.Actions; 
-import com.example.sample_project.repository.ActionRepository; 
-import com.example.sample_project.service.ActionService; 
+import com.example.sample_project.models.Actions; 
+import com.example.sample_project.repositories.ActionRepository; 
+import com.example.sample_project.services.ActionService; 
 import org.springframework.beans.factory.annotation.Autowired; 
 import org.springframework.http.HttpStatus; 
 import org.springframework.http.ResponseEntity; 

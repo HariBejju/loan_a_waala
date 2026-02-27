@@ -1,7 +1,7 @@
 package com.example.sample_project.controller; 
  
-import com.example.sample_project.entity.LoanUserCollection; 
-import com.example.sample_project.service.LoanUserCollectionService; 
+import com.example.sample_project.models.LoanUserCollection; 
+import com.example.sample_project.services.LoanUserCollectionService; 
 import org.junit.jupiter.api.BeforeEach; 
 import org.junit.jupiter.api.Test; 
 import org.junit.jupiter.api.extension.ExtendWith; 
